@@ -1,0 +1,57 @@
+.session {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.session h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.session p {
+    line-height: 1.6;
+}
+
+.info {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.info span {
+    margin-right: 20px;
+}
+
+.info i {
+    margin-right: 5px;
+}
+
+.btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    .session {
+        padding: 15px;
+    }
+
+    .session h2 {
+        font-size: 20px;
+    }
+
+    .info {
+        flex-direction: column;
+    }
+
+    .info span {
+        margin-bottom: 10px;
+    }
+}

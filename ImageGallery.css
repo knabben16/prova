@@ -1,0 +1,22 @@
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .image-gallery-item {
+    width: 33.33%;
+    margin-bottom: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .image-gallery-item {
+      width: 50%;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .image-gallery-item {
+      width: 10
+    }
+  }  
